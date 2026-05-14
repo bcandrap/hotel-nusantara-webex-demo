@@ -242,8 +242,8 @@ Common issues:
 
 - This is a **demo project**, not production-ready software. Security review is required before exposing to real customers.
 - **Service App tokens are long-lived secrets** — rotate regularly and never commit to git.
-- Webex Click-to-Call is in **beta status** (as of 2025). The SDK API surface may change; we pin to `webex@3.5.0-next.25` for that reason.
-- This project is **not affiliated with or endorsed by Cisco Systems Inc.** — it's an independent technical demo by a Cisco partner SE.
+- Webex Click-to-Call SDK API surface may change; we pin to `webex@3.5.0-next.25` for that reason.
+- This project is **not affiliated with or endorsed by Cisco Systems Inc.** — it's an independent technical demo by a Cisco SE or partner SE.
 
 ---
 
