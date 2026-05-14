@@ -1,0 +1,29 @@
+# Netlify build configuration
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Folder yang di-serve sebagai static site root
+  publish = "public"
+  # Folder berisi Netlify Functions (auto-detect)
+  functions = "netlify/functions"
+
+# Pastikan function tidak di-cache (token harus selalu fresh)
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Cache-Control = "no-store"
+
+# Static assets — cache short-term, biar perubahan UI cepat ke-pickup
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Single-page redirect (kalau suatu hari di-upgrade ke SPA dengan client routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

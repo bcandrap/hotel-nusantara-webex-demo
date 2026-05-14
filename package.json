@@ -1,0 +1,28 @@
+{
+  "name": "hotel-nusantara-webex-c2c-demo",
+  "version": "1.0.0",
+  "description": "A hotel reservation landing page demo with embedded Webex Calling Click-to-Call integration. Pure static site + Netlify Functions backend.",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "webex",
+    "webex-calling",
+    "click-to-call",
+    "netlify",
+    "cisco",
+    "demo",
+    "auto-attendant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
