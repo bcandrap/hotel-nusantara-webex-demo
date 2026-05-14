@@ -69,7 +69,7 @@ Before you deploy, you'll need:
 
 #### Option A: One-click deploy (easiest)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YOUR_USERNAME/hotel-nusantara-webex-demo)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bcandrap/hotel-nusantara-webex-demo)
 
 > Replace `YOUR_USERNAME` with the actual repo URL after you fork it
 
@@ -255,7 +255,7 @@ MIT — see [LICENSE](LICENSE) file. Use it however you want, but no warranties.
 
 ## 🙌 Credits
 
-- **Design**: hand-crafted hotel landing page concept by [Bagus Pratama](https://github.com/) at AnugrahPratama.com
+- **Design**: hand-crafted hotel landing page concept by [Bagus Pratama](https://github.com/bcandrap/hotel-nusantara-webex-demo/)
 - **Webex integration**: based on patterns from the official `WebexSamples/webex-js-sdk-calling-demo` sample
 - **Built with**: React (via Babel standalone, no build step), Netlify Functions, Webex Calling SDK
 
