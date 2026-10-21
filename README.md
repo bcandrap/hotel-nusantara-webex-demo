@@ -2,7 +2,7 @@
 
 A hotel reservation landing page with an **embedded Webex Calling Click-to-Call** integration. Guests can speak with the front desk directly from their browser — no phone number, no app download, just a real audio call powered by [Webex Calling](https://www.webex.com/calling.html).
 
-Built as a **Cisco Indonesia Solutions Engineering demo** to showcase Webex Click-to-Call capability for partner presentations and enterprise prospects. Branded as a fictional hotel (Hotel Nusantara) but easily rebrandable to any vertical — healthcare, retail, hospitality, banking.
+Built as **Cisco Indonesia Solutions Engineering demo** to showcase Webex Click-to-Call capability for partner presentations and enterprise prospects. Branded as a fictional hotel (Hotel Nusantara) but easily rebrandable to any vertical — healthcare, retail, hospitality, banking.
 
 > 📘 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for a full system diagram and security threat model.
 
